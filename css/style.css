@@ -1,0 +1,58 @@
+:root {
+  /* Button Color */
+  --bt-primary-color: #048853;
+
+  /* Color */
+  --bg-color: linear-gradient(to right, #048853, #00492c);
+  --color-white: #ffffff;
+
+  /* Font Weight */
+  --bold: 700;
+  --semibold: 600;
+  --medium: 500;
+  --normal: 400;
+  --light: 300;
+  --extrathink: 200;
+  --thin: 100;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background: var(--bg-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: var(--color-white);
+  font-weight: var(--normal);
+}
+
+.nav-link:hover {
+  font-weight: var(--bold);
+  color: var(--color-white);
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  border: none;
+  font-weight: var(--bold);
+  font-size: 16px;
+  background-color: white;
+  color: #048853;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  border: none;
+  font-weight: var(--normal);
+  font-size: 16px;
+  background-color: transparent;
+  color: var(--color-white);
+}
