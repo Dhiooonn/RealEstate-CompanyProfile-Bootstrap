@@ -16,14 +16,23 @@
   --thin: 100;
 }
 
+* {
+  z-index: 2;
+}
+
 body {
   font-family: "Poppins", serif;
-  background: var(--bg-color);
+}
+
+/* navbar Style - Start */
+.navbar {
+  z-index: 3;
 }
 
 .navbar-brand {
   font-weight: 700;
   font-size: 20px;
+  background-color: transparent;
 }
 
 .nav-link {
@@ -35,6 +44,7 @@ body {
 .nav-link:hover {
   font-weight: var(--bold);
   color: var(--color-white);
+  transition: all 0.3s ease;
 }
 
 .button-primary {
@@ -56,3 +66,57 @@ body {
   background-color: transparent;
   color: var(--color-white);
 }
+/* Navbar Style - End */
+
+/* Hero Section Style - Start */
+#hero {
+  background: var(--bg-color);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+}
+
+.hero-tagline {
+  color: var(--color-white);
+}
+
+.hero-tagline h1 {
+  font-weight: var(--bold);
+  font-size: 75px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 18px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.button-lg-primary {
+  height: 70px;
+  width: 237px;
+  background-color: var(--color-white);
+  font-size: 16px;
+  font-weight: var(--bold);
+  border: none;
+  color: var(--bt-primary-color);
+  margin-right: 13px;
+}
+
+.button-lg-primary:hover {
+  margin-right: 20px;
+  transition: all 0.5s ease;
+}
+
+.pattern-img {
+  z-index: 1;
+}
+
+.img-hero {
+  z-index: 1;
+}
+/* Section hero - End */
