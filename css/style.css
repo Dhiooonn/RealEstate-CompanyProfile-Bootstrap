@@ -107,6 +107,7 @@ body {
   border: none;
   color: var(--bt-primary-color);
   margin-right: 13px;
+  transition: all 0.5s ease;
 }
 
 .button-lg-primary:hover {
@@ -148,6 +149,7 @@ h2 {
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
   border: #323232;
+  transition: all 0.2s ease-in;
 }
 
 .circle-icon {
@@ -155,12 +157,14 @@ h2 {
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  transition: all 0.1s ease-in;
 }
 
 .card-service h3 {
   font-size: 24px;
   font-weight: var(--semibold);
   color: var(--bt-primary-color);
+  transition: all 0.2s ease-in;
 }
 
 .card-service p {
@@ -168,6 +172,7 @@ h2 {
   font-size: 14px;
   font-weight: var(--normal);
   color: black;
+  transition: all 0.3s ease-in;
 }
 
 /* Hover  */
@@ -178,19 +183,19 @@ h2 {
   background: var(--bg-color);
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
 }
 
-.circle-icon:hover {
+.card-service:hover .circle-icon {
   background-color: var(--color-white);
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  transition: all 0.1s ease-in;
 }
 
 .card-service:hover h3 {
   font-size: 24px;
   font-weight: var(--semibold);
   color: white;
+  transition: all 0.2s ease-in;
 }
 
 .card-service:hover p {
@@ -198,4 +203,5 @@ h2 {
   font-size: 14px;
   font-weight: var(--normal);
   color: var(--color-white);
+  transition: all 0.3s ease-in;
 }
