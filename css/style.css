@@ -149,7 +149,7 @@ h2 {
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
   border: #323232;
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .circle-icon {
@@ -183,7 +183,8 @@ h2 {
   background: var(--bg-color);
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
-  transition: all 0.2s ease-in;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in;
 }
 
 .card-service:hover .circle-icon {
@@ -204,4 +205,44 @@ h2 {
   font-weight: var(--normal);
   color: var(--color-white);
   transition: all 0.3s ease-in;
+}
+/* Service Section - End */
+
+/* Search Section - Start */
+#search {
+  background-image: url(../img/background-search\ section.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#search h2 {
+  color: var(--color-white);
+  font-size: 48px;
+  font-weight: var(--semibold);
+}
+
+#search p {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: var(--normal);
+}
+
+.input-search {
+  height: 88px;
+}
+
+#button-search {
+  background-color: var(--bt-primary-color);
+  color: var(--color-white);
+  border: none;
+  font-size: 36px;
+  font-weight: var(--medium);
+  padding: 17px 29px;
+}
+
+input.form-control {
+  border: none;
+  font-size: 18px;
 }

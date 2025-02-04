@@ -79,7 +79,7 @@
       <div class="container h-100">
         <div class="row h-100">
           <div class="hero-tagline col-md-6 my-auto">
-            <h1>
+            <h1 id="typeit">
               Help Find <br />
               Dream house.
             </h1>
@@ -171,6 +171,153 @@
                 from source trustworthy.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section - End -->
+
+    <!-- Search Section - Start -->
+    <section id="search">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Find Your Dream Home</h2>
+            <p>
+              Now you can save yourself all the stress, time, and hidden costs,
+              <br />
+              with hundreds of homes for you
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 mx-auto">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#sell"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Sell
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#rent"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Rent
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#new-property"
+              type="button"
+              role="tab"
+              aria-controls="contact-tab-pane"
+              aria-selected="false"
+            >
+              New Property
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="sell"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            tabindex="0"
+          >
+            <!-- Dropdown house type - Start  -->
+            <div class="input-search input-group mb-3">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="img/home icon.svg" alt="" />
+                House type
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Price</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <!-- House Price Dropdown - Start  -->
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="img/money icon.svg" alt="" />
+                House price
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Price</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <!-- House Price Dropdown - End -->
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with dropdown button"
+                placeholder="search by location, ID, Property"
+              />
+
+              <!-- Button Search - Start -->
+              <button class="btn" type="button" id="button-search">
+                search
+              </button>
+              <!-- Button Search - End -->
+            </div>
+            <!-- Dropdown house type - End  -->
+          </div>
+          <div
+            class="tab-pane fade"
+            id="rent"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+            tabindex="0"
+          >
+            Rent
+          </div>
+          <div
+            class="tab-pane fade"
+            id="new-property"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+            tabindex="0"
+          >
+            New Property
           </div>
         </div>
       </div>
