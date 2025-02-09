@@ -1,0 +1,62 @@
+@media screen and (max-width: 992px) {
+  .input-search .button-secondary {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  #button-search {
+    font-size: 24px;
+  }
+}
+
+/* Untuk Tablet */
+@media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+
+  #service h2 {
+    font-size: 35px;
+  }
+
+  #service .sub-title {
+    font-size: 16px;
+  }
+
+  #service .card-service {
+    margin: 15px 0;
+  }
+
+  #search h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  #search p {
+    font-size: 18px;
+    line-height: 24p;
+  }
+
+  .input-search .button-secondary {
+    width: 50%;
+    height: 60%;
+  }
+
+  #button-search {
+    font-size: 17px;
+    border-radius: 0 0 5px 0;
+  }
+
+  .form-control {
+    height: 60px !important;
+  }
+}
+
+/* Untuk Smartphone */
+@media screen and (max-width: 350px) {
+}
