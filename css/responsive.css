@@ -2,10 +2,44 @@
   .input-search .button-secondary {
     width: 120px;
     font-size: 14px;
+    border-radius: 0;
   }
 
   #button-search {
     font-size: 24px;
+    border-radius: 0 0 10px 10px !important;
+  }
+
+  #recommendation {
+    margin-top: 200px;
+  }
+
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .card-contact {
+    width: 100%;
+    height: auto;
+    padding: 52px 48px;
+    margin-top: 42px;
+  }
+
+  .card-contact h2 {
+    font-size: 24px;
+    line-height: 60px;
+    margin-bottom: 21px;
+  }
+
+  #button-search {
+    display: block;
+    width: 100%;
+  }
+
+  .button-secondary {
+    display: block;
+    width: 100%;
   }
 }
 
@@ -49,7 +83,7 @@
 
   #button-search {
     font-size: 17px;
-    border-radius: 0 0 5px 0;
+    border-radius: 0;
   }
 
   .form-control {
